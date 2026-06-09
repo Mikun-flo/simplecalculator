@@ -24,7 +24,7 @@ body {
   padding: 22px 20px 20px 20px;
   display: flex;
   flex-direction: column;
-  box-shadow: none; /* Flat design as in the inspo image */
+  box-shadow: none; /* Flat design like the inspo image */
 }
 
 /* Header/Title */
@@ -71,9 +71,6 @@ body {
   -webkit-appearance: none;
   margin: 0;
 }
-/* .inputs-row input[type="number"] {
-  -moz-appearance: textfield;
-} */
 
 /* Row containing operator buttons */
 .operators-row {
@@ -117,4 +114,15 @@ body {
   font-size: 15px;
   color: #000000;
   outline: none;
+}
+
+/* Footer text styling */
+.footer {
+  text-align: center;
+  margin-top: 12px;
+}
+.footer p {
+  font-size: 12px;
+  color: #083146;
+  opacity: 0.8;
 }
