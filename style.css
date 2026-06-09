@@ -17,19 +17,19 @@ body {
 }
 /* Calculator Outer Card */
 .calculator-card {
-  background-color: #bccaeb; /* Matches the light cyan in the image */
+  background-color: #bccaeb; /* Matches the light cyan/blue in the image */
   border: 1px solid #102630;  /* Thin dark border */
   border-radius: 35px 35px 0 0; /* Rounded top, square bottom */
   width: 380px;
   padding: 22px 20px 20px 20px;
   display: flex;
   flex-direction: column;
-  box-shadow: none; /* Flat design as in the image */
+  box-shadow: none; /* Flat design as in the inspo image */
 }
 
 /* Header/Title */
 .calculator-title {
-  color: #083146; /* Deep blue-teal shade */ 
+  color: #083146; /* Deep blue-teal color */ 
   font-family: 'Georgia', 'Times New Roman', serif;
   font-size: 26px;
   font-weight: bold;
@@ -71,9 +71,9 @@ body {
   -webkit-appearance: none;
   margin: 0;
 }
-.inputs-row input[type="number"] {
+/* .inputs-row input[type="number"] {
   -moz-appearance: textfield;
-}
+} */
 
 /* Row containing operator buttons */
 .operators-row {
@@ -96,4 +96,25 @@ body {
   align-items: center;
   justify-content: center;
   transition: background-color 0.2s ease;
+}
+.operator-btn:hover {
+  background-color: #0a4f6f;
+}
+.operator-btn:active {
+  background-color: #052636;
+}
+/* Output result container */
+.output-box-container {
+  width: 100%;
+}
+/* Result input field */
+#result-display {
+  width: 100%;
+  height: 32px;
+  border: 1px solid #073950;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #000000;
+  outline: none;
 }
