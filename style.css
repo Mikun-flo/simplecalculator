@@ -1,1 +1,29 @@
  
+ /* Custom fonts and core styling */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/* Calculator Outer Card */
+.calculator-card {
+  background-color: #bccaeb; /* Matches the light cyan in the image */
+  border: 1px solid #102630;  /* Thin dark border */
+  border-radius: 35px 35px 0 0; /* Rounded top, square bottom */
+  width: 380px;
+  padding: 22px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none; /* Flat design as in the image */
+
+}
