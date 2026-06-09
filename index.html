@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +8,30 @@
         content="A simple and clean basic math calculator application built with HTML, CSS, and JavaScript.">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="calculator-card" id="calculator">
-        <h1 class="calculator-title">Basic Math Calculator</h1>
-
+        <h1 class="calculator-title">Basic Math Calculator</h1> 
         <div class="inner-box">
             <div class="inputs-row">
                 <input type="number" id="num1" placeholder="Input number" aria-label="First Number">
                 <input type="number" id="num2" placeholder="Input number" aria-label="Second Number">
             </div>
+           
+            <div class="operators-row">
+                <button class="operator-btn" id="btn-add" data-operator="+" aria-label="Add">+</button>
+                <button class="operator-btn" id="btn-subtract" data-operator="-" aria-label="Subtract">-</button>
+                <button class="operator-btn" id="btn-multiply" data-operator="*" aria-label="Multiply">&times;</button>
+                <button class="operator-btn" id="btn-divide" data-operator="/" aria-label="Divide">&divide;</button>
+            </div>
+      </div> 
+     
+      <div class="output-box-container">
+         <input type="text" id="result-display" readonly aria-label="Result" placeholder="">
+      </div>
+
+      <div class="footer">
+         <p>&copy; 2026 Basic Math Calculator. All rights reserved.</p>
+     </div>
+       <script src="script.js"></script>
+    </body>
+</html>
